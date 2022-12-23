@@ -1,0 +1,29 @@
+.info-dados{
+    padding: 0 15vh 10vh;
+}
+
+.info-dados__lista{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista__item{
+    width: 20%;
+}
+
+.lista__dado{
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.lista__titulo{
+    font-size: 18px;
+    margin: 1em 0;
+}
+
+.lista__texto{
+    font-weight: 400;
+    color: var(--cinza-principal);
+}

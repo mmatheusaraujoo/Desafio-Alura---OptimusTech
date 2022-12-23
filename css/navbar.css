@@ -1,0 +1,44 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 5em;
+}
+
+.navbar__titulo{
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-titulo);
+    padding-left: 1.5em;
+}
+
+.navbar__items{
+    color: var(--cinza-principal);
+    grid-column: span 2;
+    justify-self: flex-start;
+}
+
+.navbar__link{
+    margin: 0 1em;
+}
+
+.navbar__botoes{
+    justify-self: flex-end;
+
+}
+
+.botao__entrar{
+    margin: 0 1em;
+    color: var(--cinza-principal);
+}
+
+.botao__cadastrar{
+    background-color: var(--vermelho);
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    color: var(--branco);
+}

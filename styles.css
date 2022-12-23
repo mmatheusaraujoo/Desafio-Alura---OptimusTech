@@ -1,0 +1,30 @@
+@import url(css/navbar.css);
+@import url(css/sobrenos.css);
+@import url(css/infodados.css);
+@import url(css/vagas.css);
+@import url(css/depoimentos.css);
+@import url(css/oportunidades.css);
+
+
+
+:root{
+    --cinza-principal: #667085;
+    --cinza-secundario: #F9FAFB;
+    --cinza-titulo: #3A404E;
+    --cinza-borda: #EAECF0;
+    --cinza-bacground: #F9FAFB;
+    --branco: #ffffff;
+    --preto: #101828;
+    --vermelho: #8E2424;
+    --vermelho-claro: rgba(142, 36, 36, 0.05);
+    --bege: rgba(196, 25, 25, 0.03);
+    --inter: "Inter";
+}
+
+body{
+    background: var(--branco);
+    font-family: var(--inter), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+}

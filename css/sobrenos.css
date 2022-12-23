@@ -1,0 +1,23 @@
+.sobre-nos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 20vh 0;
+}
+
+.sobre-nos__titulo{
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobre-nos__descricao{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 24px 0 36px;;
+}
+
+.sobre-nos__texto{
+    color: var(--cinza-principal);
+    width: 60%;
+}

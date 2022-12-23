@@ -1,0 +1,34 @@
+.secao__depoimentos {
+    background: var(--vermelho-claro);
+    margin: 0 20vh 10vh;
+    text-align: center;
+    padding: 5em;
+}
+
+.depoimento__conteudo {
+    margin-bottom: 2em;
+}
+
+.depoimento__titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimento__texto {
+    font-size: 36px;
+    margin: 0.5em;
+}
+
+.depoimento__perfil {
+    margin: 1.5em 0;
+}
+
+.perfil__nome {
+    margin: 0.5em 0;
+}
+
+.perfil__profissao {
+    font-size: 14px;
+    color: var(--cinza-principal);
+}

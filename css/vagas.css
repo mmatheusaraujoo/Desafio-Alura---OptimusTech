@@ -1,0 +1,65 @@
+.vagas__cabecalho {
+    text-align: center;
+    margin: 10% 5% 5%;
+}
+
+.cabecalho__titulo {
+    display: inline;
+    padding: 0.5em;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background: var(--vermelho-claro);
+}
+
+.cabecalho__descricao{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0.8em 0;
+}
+
+
+.cabecalho__texto {
+    font-size: 20px;
+    color: var(--cinza-principal);
+    margin-bottom: 4em;
+}
+
+.vagas__banner {
+    width: 95%;
+}
+
+.vagas__lista-de-vagas {
+margin: 5% 5% 10%;
+}
+
+.lista-de-vagas__item {
+    margin: 0 20%;
+}
+
+.vaga_area {
+    font-size: 20px;
+    margin: 2em 0;
+}
+
+.vagas-disponiveis__item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: auto auto;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+    margin: 1em 0;
+}
+
+.vaga__titulo{
+    grid-column: span 4;
+    font-size: 18px;
+    margin-bottom: 1em;
+
+}
+
+.vaga__faixa-salarial, .vaga__carga-horaria{
+    color: var(--cinza-principal);
+}
